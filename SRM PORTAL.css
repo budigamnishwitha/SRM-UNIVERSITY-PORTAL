@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("Ariel-View-1.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 40px;
+}
+
+.info, .login {
+  border-radius: 4px;
+  padding: 15px;
+  box-shadow: 0 1px 5px rgba(0,0,0,.2);
+ background: rgba(255, 255, 255, 0.752);
+backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+  border-radius: 4px;
+    padding: 15px;
+  
+}
+
+h1 {
+  background: #484622;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom:15px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+h3{
+    color:#0000FF;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h2{
+     width:444px;
+    height:46.93px;
+    color:#31708F;
+    font-size: 21.333px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px 0px 10px;
+
+}
+.info{
+    width:800px;
+}
+.login{
+    width:500px;
+      border:1px black solid
+}
+pre{
+   color:#0000FF;
+   font-size: 14px;
+}
+.login h3{
+    display: flex;
+    justify-content: end;
+    align-content: end;
+}
